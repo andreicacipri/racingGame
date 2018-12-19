@@ -10,16 +10,16 @@ public class App
     {
         // declare a variable and instanting a Car object
        Car firstCompetitor = new Car(new Engine());
-       firstCompetitor.name = "Dacia";
-       firstCompetitor.color = "black";
+       firstCompetitor.setName("Dacia");
+       firstCompetitor.setColor("black");
        firstCompetitor.doorCount = 6;
-       firstCompetitor.mileage = 9.5;
+       firstCompetitor.setMileage(9.5);
        Engine firstEngine =new Engine();
        firstEngine.manufacturer = "Renault";
         //local variables are variables declared inside main
         //they don;t receive default values
         Car secondCompetitor =new Car(new Engine());
-        secondCompetitor.name = "Golf";
+        secondCompetitor.setName("Golf");
         // sout print a message to the console
        System.out.println(firstEngine.manufacturer);
        firstCompetitor.engine = firstEngine;
