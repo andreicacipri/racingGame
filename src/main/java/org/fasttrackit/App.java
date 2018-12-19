@@ -25,5 +25,9 @@ public class App
        firstCompetitor.engine = firstEngine;
         firstCompetitor.engine.manufacturer ="BMW";
         System.out.println(firstEngine.manufacturer);
+
+       double traveledDistance = firstCompetitor.accelerate(100, 30);
+
+
     }
 }
