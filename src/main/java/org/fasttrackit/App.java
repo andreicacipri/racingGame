@@ -41,7 +41,10 @@ public class App
         firstCheatingCar.name = "Logan";
         firstCheatingCar.accelerate(2,2);
 
-
+        Vehicle cheatingCar = new CheatingCar();
+        cheatingCar.accelerate(10,2);
+        //type casting
+        ((CheatingCar) cheatingCar).test();
 
     }
 

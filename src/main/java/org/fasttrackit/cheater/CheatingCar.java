@@ -21,4 +21,7 @@ public class CheatingCar extends Vehicle {
     public AutoVehicle returnSomeVehicle() {
         return new AutoVehicle();
     }
+    public void test(){
+        System.out.println("test");
+    }
 }
