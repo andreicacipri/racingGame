@@ -5,10 +5,10 @@ public class Vehicle {
     public static int applicationTotalNumberOfVehicles;
 
 
-    private String name;
-    private String color;
-    private double mileage;
-    private long totalKm;
+    public String name;
+    public String color;
+    public double mileage;
+    public long totalKm;
 
 
 
@@ -19,10 +19,14 @@ public class Vehicle {
             return distance;
         }
         //method overloading
-        public double accelerate (double speed){
-        return accelerate(speed, 1);
-
+        public double accelerate (double speed) {
+            return accelerate(speed, 1);
         }
+        public Vehicle returnSomeVehicle(){
+            return this;
+
+            }
+
 
     public String getName() {
         return name;
