@@ -36,5 +36,8 @@ public class App
         System.out.println("Total from vehicle 2: "+ Vehicle.applicationTotalNumberOfVehicles);
         System.out.println("Total from vehicle 1: "+ Vehicle.applicationTotalNumberOfVehicles);
 
+
+
     }
+
 }
