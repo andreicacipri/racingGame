@@ -9,6 +9,8 @@ public class App
     public static void main( String[] args )
     {
        Game game = new Game();
+       game.addCompetititor(2);
+       game.displayCompetitor();
        game.addTrack(0,new Track("Highway",300 ));
        game.addTrack(1,new Track("Seaside",100 ));
        game.addTrack(2,new Track("Dakar",250 ));
